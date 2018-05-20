@@ -5,17 +5,17 @@
 
 master | 3.3.5
 :------------: | :------------:
-[![master Build Status](https://travis-ci.org/TrinityCore/TrinityCore.svg?branch=master)](https://travis-ci.org/TrinityCore/TrinityCore) | [![3.3.5 Build Status](https://travis-ci.org/TrinityCore/TrinityCore.svg?branch=3.3.5)](https://travis-ci.org/TrinityCore/TrinityCore)
+[![master Build Status](https://travis-ci.org/Giean/NewbWotlk.svg?branch=master)](https://travis-ci.org/Giean/NewbWotlk) |
 
 
 
 ## Pr&eacute;sentation :
 
-NewbCORE est un "fork" de base de l'application TrinityCore, (Emulateur WOTLK &eacute;crit en c++). Nous avons mont&eacute; notre propre
+NewbCORE est un d&eacute;riv&eacute; de l'application TrinityCore, (Emulateur WOTLK &eacute;crit en c++). Nous avons mont&eacute; notre propre
 d&eacute;pot pour bloquer toute mise à jour de la part de TrinityCore afin d'avoir un maximum de suivi et de support pour notre communaut&eacute; !
 Le core sera maintenanu par notre communaut&eacute; b&eacute;n&eacute;volement.
 Le projet est sous licence GNU\GPLV3.
-L'applicatif est strictement à but purement &eacute;ducatif, les repr&eacute;sentant de l'&eacute;quipe Newb ne peuvent &ecirc;tre tenu responsable, si des utilisateurs
+L'applicatif est strictement r&eacute;serv&eacute; &agrave; un usage &eacute;ducatif, les repr&eacute;sentant de l'&eacute;quipe Newb ne peuvent &ecirc;tre tenu responsable, si des utilisateurs
 utilisent ces ressources &agrave; but lucratif.
 
 ## Pr&eacute;-requis :
@@ -50,7 +50,6 @@ Rejoignez-nous sans plus attendre sur nos diff&eacute;rents services :
 ~ Epsilone
 ~ iThorgrim
 ~ Stitch
-~ H3
 ~ Mithrandir
 
 
