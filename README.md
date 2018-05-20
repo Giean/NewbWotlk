@@ -5,7 +5,7 @@
 
 NewbCore 
  3.3.5 
-:------------: | 
+:------------: | :------------:
 [![master Build Status](https://travis-ci.org/Giean/NewbWotlk.svg?branch=master)](https://travis-ci.org/Giean/NewbWotlk) |
 
 
