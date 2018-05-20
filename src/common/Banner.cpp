@@ -7,13 +7,22 @@ void Trinity::Banner::Show(char const* applicationName, void(*log)(char const* t
     log(Trinity::StringFormat("%s (%s)", GitRevision::GetFullVersion(), applicationName).c_str());
     log("<Ctrl-C> to stop.\n");
     
- log(" _   _ ________          ______   ______ _____ \\");  
- log("| \ | |  ____\ \        / /  _ \ |  ____|  __ \ \\"); 
- log("|  \| | |__   \ \  /\  / /| |_) || |__  | |__) | \\");
- log("| . ` |  __|   \ \/  \/ / |  _ < |  __| |  _  / \\"); 
- log("| |\  | |____   \  /\  /  | |_) || |    | | \ \ \\"); 
- log("|_| \_|______|   \/  \/   |____(_)_|    |_|  \_\ \\");
- log("https://newb.fr \\/__/\n");
+cout << " "
+	<< endl;
+	setcolor(9);
+	cout << "mmmmmmmmmmmmmmmmmmmmmm           sssssssssssssssss" << endl;
+	cout << "mmmmmmmmmmmmmmmmmmmm            `sssssssssssssssss" << endl;
+	cout << "mmmmmmmmmmmmmmmmmmm              sssssssssssssssss" << endl;
+	setcolor(7);
+	cout << "mmmmmmmmmmmmmmmmmmm               ssssssssssssssss" << endl;
+	cout << "mmmmmmmmmmmmmmmmmmmm              ssssssssssssssss" << endl;
+	cout << "mmmmmmmmmmmmm mmmmmm               sssssssssssssss" << endl;
+	setcolor(12);
+	cout << "mmmmmmmmmmm m + ms                 sssssssssssssss" << endl;
+	cout << "mmmmmmmmmmmmm    mmm              ssssssssssssssss" << endl;
+	cout << "mmmmmmmmmmmm mmmmm  m             ssssssssssssssss" << endl;
+	cout << "mmmmmmmmmmmmmmmm    mm       sssssssssssssssssssss" << endl;
+	cout << " "<< endl;
 
     if (logExtraInfo)
         logExtraInfo();
