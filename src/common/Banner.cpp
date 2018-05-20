@@ -7,13 +7,13 @@ void Trinity::Banner::Show(char const* applicationName, void(*log)(char const* t
     log(Trinity::StringFormat("%s (%s)", GitRevision::GetFullVersion(), applicationName).c_str());
     log("<Ctrl-C> to stop.\n");
     
- log("_   _ ________          ______   ______ _____");  
+ log(" _   _ ________          ______   ______ _____");  
  log("| \ | |  ____\ \        / /  _ \ |  ____|  __ \/"); 
  log("|  \| | |__   \ \  /\  / /| |_) || |__  | |__) |");
  log("| . ` |  __|   \ \/  \/ / |  _ < |  __| |  _  /"); 
  log("| |\  | |____   \  /\  /  | |_) || |    | | \ \/"); 
  log("|_| \_|______|   \/  \/   |____(_)_|    |_|  \_\/");
- log("https://newb.fr");
+ log("https://newb.fr \\/__/\n");
 
     if (logExtraInfo)
         logExtraInfo();
