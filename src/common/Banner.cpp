@@ -9,8 +9,17 @@ void Trinity::Banner::Show(char const* applicationName, void(*log)(char const* t
     log("  _   _   _   _");  
     log("/ \ / \ / \ / \ ");
     log("(N | E | W | B )");
-    log("\_/ \_/ \_/ \_/"); 
-    log("https://newb.fr n");
+    log("\_/ \_/ \_/ \_/");
+	
+log("#                     ##");                                             
+log("##                    ##");                                             
+log("###  ## ######## ##   ## #######     ###### ####### #######  ########");
+log("#### ##          ## # ##       ##   ###           ##      ##");         
+log("#######  ####### #######  ######    ###      ##   ## ######   #######");
+log("### ###  ###     ### ###  ###  ##   ###      ##   ## ##  ##   ###");    
+log("###  ##  ####### ##   ##  ######     ######   #####  ##   ##  #######");
+log("      #");          
+    log("https://newb.fr");
 
     if (logExtraInfo)
         logExtraInfo();
