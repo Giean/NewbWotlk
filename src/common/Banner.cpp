@@ -6,23 +6,11 @@ void Trinity::Banner::Show(char const* applicationName, void(*log)(char const* t
 {
     log(Trinity::StringFormat("%s (%s)", GitRevision::GetFullVersion(), applicationName).c_str());
     log("<Ctrl-C> to stop.\n");
-    
-cout << " "
-	<< endl;
-	setcolor(9);
-	cout << "mmmmmmmmmmmmmmmmmmmmmm           sssssssssssssssss" << endl;
-	cout << "mmmmmmmmmmmmmmmmmmmm            `sssssssssssssssss" << endl;
-	cout << "mmmmmmmmmmmmmmmmmmm              sssssssssssssssss" << endl;
-	setcolor(7);
-	cout << "mmmmmmmmmmmmmmmmmmm               ssssssssssssssss" << endl;
-	cout << "mmmmmmmmmmmmmmmmmmmm              ssssssssssssssss" << endl;
-	cout << "mmmmmmmmmmmmm mmmmmm               sssssssssssssss" << endl;
-	setcolor(12);
-	cout << "mmmmmmmmmmm m + ms                 sssssssssssssss" << endl;
-	cout << "mmmmmmmmmmmmm    mmm              ssssssssssssssss" << endl;
-	cout << "mmmmmmmmmmmm mmmmm  m             ssssssssssssssss" << endl;
-	cout << "mmmmmmmmmmmmmmmm    mm       sssssssssssssssssssss" << endl;
-	cout << " "<< endl;
+    log("  _   _   _   _");  
+    log("/ \ / \ / \ / \ ");
+    log("(N | E | W | B )");
+    log("\_/ \_/ \_/ \_/"); 
+    log("https://newb.fr n");
 
     if (logExtraInfo)
         logExtraInfo();
