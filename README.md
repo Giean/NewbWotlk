@@ -1,4 +1,5 @@
-# ![logo](https://newb.fr/ftp/img/newbcoredepo.png) NewbCORE (3.3.5)
+# ![logo](https://newb.fr/ftp/img/newbcoredepo.png) 
+## NewbCORE (3.3.5)
 
 ## Build Status
 
