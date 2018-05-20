@@ -3,8 +3,8 @@
 
 ## Build Status
 
-master | 3.3.5
-:------------: | :------------:
+master 
+:------------: 
 [![master Build Status](https://travis-ci.org/Giean/NewbWotlk.svg?branch=master)](https://travis-ci.org/Giean/NewbWotlk) |
 
 
