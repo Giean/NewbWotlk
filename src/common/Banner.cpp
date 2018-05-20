@@ -13,7 +13,7 @@ void Trinity::Banner::Show(char const* applicationName, void(*log)(char const* t
  log("| . ` |  __|   \ \/  \/ / |  _ < |  __| |  _  /"); 
  log("| |\  | |____   \  /\  /  | |_) || |    | | \ \"); 
  log("|_| \_|______|   \/  \/   |____(_)_|    |_|  \_\");
- log("https://newb.fr");
+ log("https://newb.fr" \\/__/\n");
 
     if (logExtraInfo)
         logExtraInfo();
